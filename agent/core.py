@@ -1,6 +1,6 @@
 """
 Autonomous Multi-Agent Research Orchestrator
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import asyncio
@@ -108,3 +108,4 @@ class ResearchAgentEngine:
             progress_callback("Research completed successfully.", 1.0)
 
         return report
+

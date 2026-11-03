@@ -1,6 +1,6 @@
 """
 Data models and schemas for Autonomous Research Agent
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from typing import List, Optional, Dict, Any
@@ -45,3 +45,4 @@ class ResearchReport(BaseModel):
     markdown_content: str
     created_at: datetime = Field(default_factory=datetime.utcnow)
     execution_time_seconds: float
+

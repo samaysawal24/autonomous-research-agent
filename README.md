@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
-[![Author](https://img.shields.io/badge/Author-smay-orange.svg)](https://github.com/samaysawal24)
+[![Author](https://img.shields.io/badge/Author-Samay_Sawal-orange.svg)](https://github.com/samaysawal24)
 
 An autonomous multi-agent deep research system that breaks down complex user inquiries into atomic sub-questions, executes concurrent asynchronous web scraping, deduplicates and ranks evidence, and synthesizes comprehensive research dossiers with full citations.
 
@@ -147,3 +147,4 @@ pytest tests/ -v
 - **Author:** smay ([@samaysawal24](https://github.com/samaysawal24))
 - **Email:** cricketworldsamay@gmail.com
 - **License:** Released under the [MIT License](LICENSE).
+

@@ -1,6 +1,6 @@
 """
 FastAPI Server for Autonomous Deep Research Agent
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import asyncio
@@ -12,7 +12,7 @@ from agent import ResearchAgentEngine, ResearchQuery, ResearchReport
 app = FastAPI(
     title="Autonomous Deep Research Agent API",
     version="1.0.0",
-    description="Multi-agent search, decomposition, and technical synthesis engine authored by smay"
+    description="Multi-agent search, decomposition, and technical synthesis engine authored by Samay Sawal"
 )
 
 app.add_middleware(
@@ -34,7 +34,7 @@ async def health_check():
     return {
         "status": "healthy",
         "service": "autonomous-research-agent",
-        "author": "smay",
+        "author": "Samay Sawal",
         "version": "1.0.0"
     }
 
@@ -94,3 +94,4 @@ async def get_job_report(job_id: str):
     if data["status"] != "completed":
         raise HTTPException(status_code=400, detail=f"Job is not completed yet (current: {data['status']})")
     return data["report"]
+

@@ -1,6 +1,6 @@
 """
 Autonomous Research Agent Package
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from .core import ResearchAgentEngine
@@ -17,3 +17,4 @@ __all__ = [
     "AsyncSearchProvider",
     "ReportSynthesizer",
 ]
+

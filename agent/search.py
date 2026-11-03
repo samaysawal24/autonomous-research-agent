@@ -1,6 +1,6 @@
 """
 Async web search and content extractor
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import asyncio
@@ -88,3 +88,4 @@ class AsyncSearchProvider:
                 )
             )
         return items
+

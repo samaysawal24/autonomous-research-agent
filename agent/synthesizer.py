@@ -1,6 +1,6 @@
 """
 Report synthesis and Markdown formatting
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import uuid
@@ -127,7 +127,8 @@ class ReportSynthesizer:
 
         lines.extend([
             "---",
-            "*Report compiled autonomously by [Autonomous Research Agent](https://github.com/samaysawal24/autonomous-research-agent) authored by smay.*"
+            "*Report compiled autonomously by [Autonomous Research Agent](https://github.com/samaysawal24/autonomous-research-agent) authored by Samay Sawal.*"
         ])
 
         return "\n".join(lines)
+

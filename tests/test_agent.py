@@ -1,6 +1,6 @@
 """
 Unit tests for Autonomous Research Agent
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import pytest
@@ -39,3 +39,4 @@ async def test_end_to_end_research_synthesis():
     assert len(report.findings) > 0
     assert "LLM Agent Memory Architectures" in report.markdown_content
     assert report.execution_time_seconds >= 0.0
+
